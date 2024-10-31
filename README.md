@@ -30,13 +30,12 @@ You can view the live demo of the Myntra Frontend Clone [here](https://github.co
 - **Interactive Navigation**: Navbar with dropdown menus and search functionality for an intuitive browsing experience.
 - **Hover Effects and Animations**: Includes subtle hover effects for product images and navigation elements, enhancing user interactivity.
 - **Footer with Links**: Replicates the detailed footer section with quick links to other parts of the site.
-- **User Login**: Allows users to register and log in for a personalized experience.
+
 
 ### Backend Features
 
 The Myntra Clone also includes a simple backend to support certain functionalities:
 
-- **User Authentication**: Registration and login functionality to enable user-specific features.
 - **Product Data Management**: Fetches product data dynamically and displays it on the frontend.
 - **Shopping Bag (Cart)**: Stores items added to the cart, allowing users to view selected items.
 - **Order Management**: Handles checkout requests, creating a basic workflow for placing orders.
@@ -49,7 +48,7 @@ The Myntra Clone also includes a simple backend to support certain functionaliti
 - **HTML5**: For structuring the web page.
 - **CSS3**: For styling, layout, and responsive design.
 - **JavaScript (ES6)**: For interactivity and component functionality.
-- **Node.js & Express**: Backend setup to handle user login, data storage, and API requests.
+- **Node.js**: Backend setup to handle API requests.
 
 ## Installation
 
@@ -74,16 +73,26 @@ To run this project locally, follow these steps:
    ```bash
    npm install
     ```
-npm install
-
+    
 4. Start the development server:
      ```bash
    npm run dev
     ```
-5. Open your browser and go to http://localhost:5173 (or as specified in the terminal) to view the site.
+
+5. Navigate to the backend directory:
+
+   ```bash
+    cd Myntra-Clone/Myntra-Clone/2-actual-backend
+    ```
+6. Start the backend server:
+     ```bash
+   node app.js
+   ```
+
+7. Open your browser and go to http://localhost:5173 (or as specified in the terminal) to view the site.
 
 ## Usage
-This project is intended for educational purposes to demonstrate front-end and basic back-end development skills using React, Vite, HTML, CSS, JavaScript, Node.js, and Express. Feel free to use it as a reference or starting point for your own projects.
+This project is intended for educational purposes to demonstrate front-end and basic back-end development skills using React, Vite, HTML, CSS, JavaScript, Node.js. Feel free to use it as a reference or starting point for your own projects.
 ## Contributing
 Contributions, issues, and feature requests are welcome! Feel free to check the issues page if you'd like to contribute.
 
@@ -97,6 +106,5 @@ Feel free to reach out if you have any questions or feedback:
 - **Email**: itsAksharaRathore@gmail.com
 - **GitHub**: [ItsAksharaRathore](https://github.com/ItsAksharaRathore)
 - **LinkedIn**: [Akshara Rathore](https://www.linkedin.com/in/itsAksharaRathore)
-
 
 ---
