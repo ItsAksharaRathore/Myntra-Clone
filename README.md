@@ -10,6 +10,7 @@ Whether you're exploring e-commerce design principles or front-end development, 
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
+- [Backend Features](#backend-features)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
@@ -21,23 +22,34 @@ You can view the live demo of the Myntra Frontend Clone [here](https://github.co
 
 ## Features
 
-- **Responsive Design**: The layout adapts seamlessly across devices, ensuring a consistent and visually appealing experience on mobile, tablet, and desktop.
-- **Product Listings & Detail Pages**: Display of product images, descriptions, and prices in an intuitive and organized format. 
-- **Interactive Navbar**: Includes links to product categories, search functionality, and a user profile icon for a complete navigation experience.
-- **Shopping Bag**: A shopping cart icon shows selected items, providing users with an easy way to view or modify their shopping bag.
-- **Hover Effects**: Engaging hover effects for product images and buttons, enhancing the user experience and visual appeal.
-- **Smooth Animations**: Implemented across sections and UI elements for a polished, modern interface.
-- **Vite Integration**: Ensures faster builds, optimized assets, and hot module replacement during development, making the development process seamless.
+### Frontend Features
 
-This clone is packed with these interactive features to provide users with a realistic e-commerce experience similar to that of the original Myntra website.
+- **Fully Responsive Design**: Adjusts to fit various screen sizes, ensuring a smooth experience on mobile, tablet, and desktop.
+- **Product Listings**: Dynamic display of product cards with images, prices, and product details, closely mirroring Myntra’s catalog view.
+- **Add to Bag**: Allows users to add items to a "bag" for a seamless shopping cart experience.
+- **Interactive Navigation**: Navbar with dropdown menus and search functionality for an intuitive browsing experience.
+- **Hover Effects and Animations**: Includes subtle hover effects for product images and navigation elements, enhancing user interactivity.
+- **Footer with Links**: Replicates the detailed footer section with quick links to other parts of the site.
+- **User Login**: Allows users to register and log in for a personalized experience.
+
+### Backend Features
+
+The Myntra Clone also includes a simple backend to support certain functionalities:
+
+- **User Authentication**: Registration and login functionality to enable user-specific features.
+- **Product Data Management**: Fetches product data dynamically and displays it on the frontend.
+- **Shopping Bag (Cart)**: Stores items added to the cart, allowing users to view selected items.
+- **Order Management**: Handles checkout requests, creating a basic workflow for placing orders.
+- **API Endpoints**: Utilizes RESTful API endpoints for seamless data communication between the frontend and backend.
 
 ## Technologies Used
 
-- **React**: For building the UI and managing components
-- **Vite**: Provides fast development and optimized builds
-- **HTML5**: For structuring the web page
-- **CSS3**: For styling, layout, and responsive design
-- **JavaScript (ES6)**: For interactivity and component functionality
+- **React**: For building the UI and managing components.
+- **Vite**: For a fast development environment and optimized build process.
+- **HTML5**: For structuring the web page.
+- **CSS3**: For styling, layout, and responsive design.
+- **JavaScript (ES6)**: For interactivity and component functionality.
+- **Node.js & Express**: Backend setup to handle user login, data storage, and API requests.
 
 ## Installation
 
@@ -47,6 +59,7 @@ To run this project locally, follow these steps:
 
    ```bash
    git clone https://github.com/ItsAksharaRathore/Myntra-Clone.git
+
     ```
 
 2. Navigate to the project directory:
@@ -70,8 +83,7 @@ npm install
 5. Open your browser and go to http://localhost:5173 (or as specified in the terminal) to view the site.
 
 ## Usage
-This project is intended for educational purposes to demonstrate front-end development skills using React, Vite, HTML, CSS, and JavaScript. Feel free to use it as a reference or starting point for your own projects.
-
+This project is intended for educational purposes to demonstrate front-end and basic back-end development skills using React, Vite, HTML, CSS, JavaScript, Node.js, and Express. Feel free to use it as a reference or starting point for your own projects.
 ## Contributing
 Contributions, issues, and feature requests are welcome! Feel free to check the issues page if you'd like to contribute.
 
@@ -85,4 +97,6 @@ Feel free to reach out if you have any questions or feedback:
 - **Email**: itsAksharaRathore@gmail.com
 - **GitHub**: [ItsAksharaRathore](https://github.com/ItsAksharaRathore)
 - **LinkedIn**: [Akshara Rathore](https://www.linkedin.com/in/itsAksharaRathore)
+
+
 ---
